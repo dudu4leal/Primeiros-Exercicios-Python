@@ -1,3 +1,5 @@
+#Programa que indica os tipos primitivos de um valor
+
 n = input('digite algo: ')
 
 print('Qual o tipo primitivo desse valor? {}'.format(type(n)))

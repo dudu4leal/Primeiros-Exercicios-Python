@@ -1,3 +1,5 @@
+#Programa que realiza uma soma simples
+
 n1 = int(input('digite o primeiro número: ')) 
 n2 = int(input('digite o segundo numero: ' ))
 

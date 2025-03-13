@@ -1,3 +1,5 @@
+#Programa que lê um número e revela seu antecessor e seu sucessor
+
 print('Se vc me mostra um número eu vou revelar o  seu antecessor e o seu sucessor. Quer apostar?\n')
 
 n=int(input('digite um número: '))

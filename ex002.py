@@ -1,3 +1,5 @@
+#Programa que lê seu aniversário e imprime ele de duas formas
+
 print('Qual a data do seu aniversário?')
 
 dia = input('Dia: ')

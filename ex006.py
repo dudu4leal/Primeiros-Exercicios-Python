@@ -1,6 +1,6 @@
 #Algoritimo que lê um número e mostra seu dobro, seu triplo e sua raiz quadrada
-import math
 
+import math
 
 n = int(input('Digite um número: '))
 
