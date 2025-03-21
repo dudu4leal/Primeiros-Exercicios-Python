@@ -18,7 +18,7 @@ c = float(input('lado C: '))
 #ignorem a lambamça que fiz antes haha, não pensei direiro
 
 
-if c < (a+b) and b < (a+c) and c < (a+b):
+if a + b > c and a + c > b and b + c > a:
     print('esse triângulo pode existir!')
 else:
     print('esse triângulo não pode existir')
