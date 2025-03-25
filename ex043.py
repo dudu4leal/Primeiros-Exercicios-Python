@@ -1,5 +1,7 @@
 #programa que lê peso(kg) e altura(m) de uma pessoa, calcula seu IMC e diz a situação do seu índice de massa corporal
 
+import os
+
 peso = float(input('peso em Kg: '))
 altura = float (input('altura em metros: '))
 
@@ -20,3 +22,5 @@ elif imc > 30 and imc <= 40:
 
 elif imc > 40:
     print('imc = {:.1f}\nobesidade mórbida')
+
+os.system("pause")
