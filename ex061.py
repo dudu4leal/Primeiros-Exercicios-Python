@@ -12,4 +12,6 @@ while count < 10:
     termoAtual += razao
     count += 1
 
+    
+
 print('fim.')
