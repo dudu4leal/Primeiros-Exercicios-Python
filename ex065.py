@@ -39,4 +39,4 @@ while condicao == 'S':
 
 media = float(soma/count)   
 
-print('a média dos valores lidos foi {:.1f}\nO maior valor foi {} e o menor valor foi {}'.format(media, maiorValor, menorValor))
+print('a média dos valores lidos foi {:.2f}\nO maior valor foi {} e o menor valor foi {}'.format(media, maiorValor, menorValor))

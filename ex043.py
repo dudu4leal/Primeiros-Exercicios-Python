@@ -15,12 +15,12 @@ elif imc >= 18.5 and imc <= 25:
     print('imc = {:.1f}\npeso ideal'.format(imc))
 
 elif imc > 25 and imc <= 30:
-    print('imc = {:.1f}\nsobrepeso')
+    print('imc = {:.1f}\nsobrepeso'.format(imc))
 
 elif imc > 30 and imc <= 40:
-    print('imc = {:.1f}\nobesidade')
+    print('imc = {:.1f}\nobesidade'.format(imc))
 
 elif imc > 40:
-    print('imc = {:.1f}\nobesidade mórbida')
+    print('imc = {:.1f}\nobesidade mórbida'.format(imc))
 
 os.system("pause")
