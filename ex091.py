@@ -3,6 +3,7 @@
 
 import random
 from time import sleep
+from operator import itemgetter
 
 
 jogadores = {'jogador1': random.randint(1, 6), 'jogador2': random.randint(1, 6), 'jogador3': random.randint(1, 6), 'jogador4': random.randint(1, 6)}
@@ -17,7 +18,7 @@ print('-='*30)
 
 print('<< RANKING DOS JOGADORES >>')
 
-jogadoresOrdenados = dict(sorted(jogadores.items(), key=lambda item: item[1], reverse=True))
+jogadoresOrdenados = dict(sorted(jogadores.items(), key=itemgetter(1), reverse=True))
 
 posicao = 1
 for k, v in jogadoresOrdenados.items():
