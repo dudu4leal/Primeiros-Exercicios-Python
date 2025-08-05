@@ -1,6 +1,6 @@
 #programa que lê peso(kg) e altura(m) de uma pessoa, calcula seu IMC e diz a situação do seu índice de massa corporal
 
-import os
+import os 
 
 peso = float(input('peso em Kg: '))
 altura = float (input('altura em metros: '))
